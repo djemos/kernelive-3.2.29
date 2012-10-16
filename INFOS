@@ -1,0 +1,4 @@
+This kernel is the same as the kernel-huge from slackware.
+It just have the following additions:
+- aufs3 filesystem support : http://aufs.sourceforge.net/ (http://git.c3sl.ufpr.br/gitweb?p=aufs/aufs2-standalone.git;a=snapshot;h=941471bb03fbd44dfe0d36e0cb1e28b2ff1ca1f0;sf=tgz)
+- xz compression support for squashfs based on the work of Phillip Lougher on the kernel 2.6.38.

@@ -1,0 +1,1 @@
+diff -u config-huge config-live > config.patch

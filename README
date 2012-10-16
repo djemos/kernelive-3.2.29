@@ -1,0 +1,9 @@
+This kernel is the same as the kernel-huge from slackware.
+It just have the following additions:
+- aufs3 filesystem support : http://aufs.sourceforge.net/
+-(it://aufs.git.sourceforge.net/gitroot/aufs/aufs3-standalone.git)
+- xz compression support for squashfs based on the work of Phillip Lougher
+- on the kernel 2.6.38:
+  based on the Kongoni patch:
+- http://sourceforge.net/projects/kongoni/files/kongoni/dist/kernel/patch/patch-kongoni-2.6.37.patch.gz/download
+
